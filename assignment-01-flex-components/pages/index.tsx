@@ -18,22 +18,22 @@ const Home: NextPage = () => {
   return (
     <div className="flex-1">
       <NavBar />
-      <Image className="cool-img" src={coolImg} />
+      <Image className="cool-img" src={coolImg} alt="flex" />
       <div className="flex-4">
         <div className="flex-4-item-1">
-          <Image src={flex4Img1} />
+          <Image src={flex4Img1} alt="flex" />
         </div>
         <div className="flex-4-item-2">
-          <Image src={flex4Img2} />
+          <Image src={flex4Img2} alt="flex" />
         </div>
         <div className="flex-4-item-3">
-          <Image src={flex4Img3} />
+          <Image src={flex4Img3} alt="flex" />
         </div>
         <div className="flex-4-item-4">
-          <Image src={flex4Img4} />
+          <Image src={flex4Img4} alt="flex" />
         </div>
         <div className="flex-4-item-5">
-          <Image src={flex4Img5} />
+          <Image src={flex4Img5} alt="flex" />
         </div>
       </div>
       <h2 style={{ textAlign: "center" }}>Products</h2>
@@ -59,16 +59,16 @@ const Home: NextPage = () => {
           </p>
         </div>
         <div>
-          <Image src={flex6Img} />
+          <Image src={flex6Img} alt="flex" />
         </div>
       </div>
       <div className="flex-8">
         <div className="flex-9">
-          <Image src={flex9Img1} />
-          <Image src={flex9Img2} />
+          <Image src={flex9Img1} alt="flex" />
+          <Image src={flex9Img2} alt="flex" />
         </div>
         <div className="flex-10">
-          <Image src={flex10Img} />
+          <Image src={flex10Img} alt="flex" />
         </div>
       </div>
     </div>

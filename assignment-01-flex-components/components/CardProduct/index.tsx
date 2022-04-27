@@ -9,7 +9,7 @@ function CardProduct({ image, title, desc }: props) {
   return (
     <div className="card-product">
       <div className="card-product-img">
-        <Image src={image} />
+        <Image src={image} alt="flex" />
       </div>
 
       <div className="card-product-info">
