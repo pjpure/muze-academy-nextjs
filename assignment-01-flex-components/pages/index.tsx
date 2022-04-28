@@ -16,10 +16,10 @@ import flex10Img from "../assets/flex10.png";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex-1">
+    <div id="flex-1">
       <NavBar />
       <Image className="cool-img" src={coolImg} alt="flex" />
-      <div className="flex-4">
+      <div id="flex-4">
         <div className="flex-4-item-1">
           <Image src={flex4Img1} alt="flex" />
         </div>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <h2 style={{ textAlign: "center" }}>Products</h2>
-      <div className="flex-5">
+      <div id="flex-5">
         <CardProduct image={flex5Img1} title="SUPERSTAR" desc="$ 109.09" />
         <CardProduct image={flex5Img1} title="SUPERSTAR" desc="$ 109.09" />
         <CardProduct image={flex5Img1} title="SUPERSTAR" desc="$ 109.09" />
@@ -49,8 +49,8 @@ const Home: NextPage = () => {
         <CardProduct image={flex5Img1} title="SUPERSTAR" desc="$ 109.09" />
         <CardProduct image={flex5Img1} title="SUPERSTAR" desc="$ 109.09" />
       </div>
-      <div className="flex-6">
-        <div className="flex-7">
+      <div id="flex-6">
+        <div id="flex-7">
           <h2>Best Seller</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -62,12 +62,12 @@ const Home: NextPage = () => {
           <Image src={flex6Img} alt="flex" />
         </div>
       </div>
-      <div className="flex-8">
-        <div className="flex-9">
+      <div id="flex-8">
+        <div id="flex-9">
           <Image src={flex9Img1} alt="flex" />
           <Image src={flex9Img2} alt="flex" />
         </div>
-        <div className="flex-10">
+        <div id="flex-10">
           <Image src={flex10Img} alt="flex" />
         </div>
       </div>
