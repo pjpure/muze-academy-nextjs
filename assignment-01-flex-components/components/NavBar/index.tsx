@@ -1,4 +1,7 @@
 import brandImg from "../../assets/brand.png";
+import bagImg from "../../assets/bag.png";
+import searchImg from "../../assets/search.png";
+import userImg from "../../assets/user.png";
 import Image from "next/image";
 function NavBar() {
   return (
@@ -11,6 +14,16 @@ function NavBar() {
         <li>Originals</li>
         <li>Sports</li>
       </ul>
+      <div className="navbar-search">
+        <input />
+        <div className="search-icon">
+          <Image src={searchImg} alt="search" />
+        </div>
+      </div>
+      <div className="user-bag">
+        <Image src={bagImg} alt="search" />
+        <Image src={userImg} alt="search" />
+      </div>
     </div>
   );
 }
