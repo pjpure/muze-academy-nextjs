@@ -82,9 +82,9 @@ const Home: NextPage = () => {
         <div id="flex-7" data-testid="flex-7">
           <h1>Best Seller</h1>
           <p>
-            Deciding what to wear to express your mood? Do you feel sporty,
-            casual, chic or sophisticated? Hey, stop overthinking it. Stan
-            Smith's iconic shoe solved this problem decades ago.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus
+            accusamus, deleniti minima quasi tempore sunt nostrum ipsum repellat
+            ut!
           </p>
           <div className="see-more">See More</div>
         </div>
